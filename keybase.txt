@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/chrpinedo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://christianpinedo.me
+  * I am chrpinedo (https://keybase.io/chrpinedo) on keybase.
+  * I have a public key with fingerprint A895 7C11 84F6 30B4 4938  32A4 9306 DFD0 CDE4 B542
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120812e0143fb6e3fab2189db0943fa686bb5b0460c49c8cc40e6ac63d09e061aba0a",
+      "fingerprint": "a8957c1184f630b4493832a49306dfd0cde4b542",
+      "host": "keybase.io",
+      "key_id": "9306dfd0cde4b542",
+      "kid": "01012536239f070f5ef5fbca585bed56a7b2e399911888490c8189a15a6a926920a70a",
+      "uid": "70c7c612f8889313b432619dad0bf519",
+      "username": "chrpinedo"
+    },
+    "service": {
+      "hostname": "christianpinedo.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1504203874,
+  "expire_in": 157680000,
+  "prev": "84b70d1a139f0b5d3e0596d4c789426ec2c4aaff5b0df863b7546e94e9ac6ac1",
+  "seqno": 24,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtkn9QFGUYx48TCLFL/J1hAhsgA6e9+3uXHCUYcyJHJwtGmOp43913YRH3zrsD
+DxEFrTRNQjCMQXIiERBEKJRQwhhhpksDVCJmgDJLBaPQtNIxsD2K6Z/2n3f2+36e
+7/t9nvctNE0z+HmF8ild8ZpPkdeFEWRIqn7VlUMgq5xNROcQG/HkgjNk7HBaNqoy
+EU0AkgICSWFAMrSCOEwrEFGkIMoIiLoCOYFDiEWA4YDEiJIgSQzAHJQ4WgYiBhwJ
+EQSQMBOKqqViu82uak7dFgoiy0skKTAKRwPEMCIt0BTUF8DJigwkGTOIZSi9MM3q
+8FTo4RB04GWqVdf0H8tkvP/hp3LryVmao2hRATxQWKywCpIgK7AIyywHeURhWhRF
+PYMgMCKQBL0rSLKQgyLFiRSA/GTuzEk7Hki8xJGUosMiTdKIoSmOFGUoA6SwpOgB
+HdiuwU1Yp6U0u03VsGwlcs2ELmepEvZM1tPKf4jqcKpQ+wdcpotmwma3Oq2SNUPf
+T3M6bdGecme2zcNvwcjyr5MFqZqsT1MvyMJ2h2rViGhSJyWn6rEmWcBQgBZ4xkxg
+l021Y4vqIVieE4D+eY7BWbqlYGEQD2QSkp4ZIVamMWBFTmYkXhAZisMSJTEQKop+
+vbIicDTiWYbDIoNF/X6hRBKe5jZrViKa0s9ywlTd1KGmatCZacdErv87Rtrb4OVn
+eHp+iHd/h/VEpSH7g7Iu929TT9DH6Hl/Bv/pAVNK0/kAQ03omHFezMCKBcuLtPDf
+d7RcbArn7p/+yt0X5HpptHvv6W+ukD11q+6/bO0UpWeOnP15yLez/Eagu7wh71zi
+Qj7miOthUnCyfxR6GG58Ex0azCtL8rsQHL0zeWBt9mePNgqG5oSV3md6xxtb4EzD
+RJ9tffhTsZ23n79WAA43t27d/P6iUzX7TGJYM4ipGvz17k2N94lMPB4769OUdV2B
+t2akpz0xsVg+2rRmOHXk+tALcz88dPX7gLaGti9mDV5pufl5hTFz4mz7nnu5BYaD
+o+9tzQ1CW+j6iR9OVF/2XsXlHQ3+Iz+0siAlODPwye/qFpTEnZzJhl0PrD9GXTgX
+deoxcm1L8tuhat2s/WO/1AaZKqq/XH3wOd8dsaO7tpfMKa0ZSvdtdeE1ReIA09Rw
+u8/d2xgw+LG7vchYu7/P5Gtan/5sQn7tgYltPeZNs3t/+mRxTm71i6PXMh846kar
+xp0hdxvj9pi73W3txzteiS9fGPbWxcbx4RT/O4ndIYYDr6cXzTt/LOvk10Gti/4c
+VjvmtJTm+e29s3to7a2r5eq0/H1q9/yMinsrpNBdb1xZVzu+NMdUuzqreHlVxKVS
+1+aCkg09lYcvzX28MMFaqRV3tS+dUaZWn/krOTLwxnbsxb02kvpj+QOTOWr3ziUL
+luzor7dHbBgzDE9/dLl/60qv2e9+FOFjjIwrjC/e1v/tYMXf
+=8/Uf
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chrpinedo
+
+==================================================================
+
