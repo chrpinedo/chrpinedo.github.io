@@ -1,0 +1,20 @@
+---
+layout: post
+title: Las comunicaciones ¿abiertas?
+date: '2012-01-07T13:14:00.001+01:00'
+author: Christian Pinedo
+tags:
+- Linux
+- METATECH
+- RouterOS
+- Mikrotik
+- OpenBSD
+- GNU
+- Vyatta
+- VMware
+modified_time: '2012-01-07T15:55:59.199+01:00'
+blogger_id: tag:blogger.com,1999:blog-578684277544682134.post-7502312697583553864
+blogger_orig_url: http://chrpinedo.blogspot.com/2012/01/las-comunicaciones-abiertas.html
+---
+
+Me considero a mi mismo como un férreo defensor del software libre pero siempre he sido un poco reacio a su utilización en el mundo "empresarial" principalmente por el desconocimiento por parte de los jefes y especialmente en el mundo de las comunicaciones (routers, firewalls, ...) por la criticidad de estos elementos para el funcionamiento de una empresa. Pero últimamente no veo más que indicios de que cada vez el software libre esta más metido en las comunicaciones y que los vendedores tradionales (Cisco, Juniper, ...) tienen que empezar a tenerlo más en cuenta.<br /><br />Hace poco estuve en un cliente con unas necesidades de comunicación moderadas: 5 conexiones WAN para balanceo de tráfico y prestar diferentes servicios. El firewall/router principal eran dos Unix <b>OpenBSD</b> virtualizados en VMware y que utilizaban CARP para aumentar la disponibilidad a nivel 3 (CARP es un protocolo similar al estándar VRRP o al protocolo HSRP de Cisco). No es la primera vez que me encontraba una solución de software libre como Router o Firewall, pero la elegancia de la implementación me abrió los ojos. Anteriormente había estado en otra empresa pública, incluso de más tamaño, que utilizaban <b>GNU/Linux</b> y Webmin como firewall pero que se les había ido de las manos y tenían excesivos servicios corriendo en el Firewall de la empresa y su gestión era un poco chapucera.<br /><br />Investigando más sobre las versiones actuales de OpenBSD he descubierto que es una solución de firewall/routing más que interesante con un nivel de throughput a nivel de red considerable siempre y cuando el hardware sea el adecuado. Estamos hablando de conseguir unos 800Mbps en tarjetas de 1Gpbs. De hecho uno de mis próximos proyectos es montar un par de equipos OpenBSD que corran BGP con OpenBGPD.<br /><br />Pero hay más movimiento. <b>Vyatta</b> es un proyecto más que interesante que consiste en la implementación software de un router/firewall/vpn... haciendo uso de software libre y que ofrece una CLI muy similar al sistema operativo de Juniper JunOS. Existe una versión <i>community</i> y una versión <i>enterprise</i> de pago que ya incluye soporte y es la opción recomendada si se va a utilizar comercialmente. Obviamente Vyatta puede ser instalada en hardware dedicado o hardware virtualizado en función de las necesidades de disponibilidad o rendimiento.<br /><br />Por último, aunque no existe una versión community libre y sólo existe una versión de pago hay que mencionar el sistema operativo <b>RouterOS</b> de Mikrotik que está basado en GNU/Linux y que proporciona funcionalidades similares a Vyatta o incluso más avanzads como MPLS. RouterOS viene preinstalado en los routers de Mikrotik con lo que por 60$ puedes tener un avanzado router/firewall que soporta RIP, OSPF, BGP, MPLS, túneles EoIP, ... y que puede tener un throughput de unos 200Mbps. ¡Por 60$ tienes un router MPS! También se pueden comprar licencias de RouterOS para su instalación en hardware tradicional. RouterOS es configurable desde una interfaz web sencilla o desde una CLI que desgraciadamente no presenta similitudes con la CLI de la IOS de Cisco o de JunOS.<br /><br />Bueno yo ya tengo un par de máquinas virtuales en VirtualBox para ir probando Vyatta y RouterOS. Veremos que es lo que da de si.<br /><br />P.D.: Me estoy centrando en soluciones de routing basadas en software libre y no tanto en soluciones de seguridad como Firewall es por ello que no he mencionado soluciones tan interesantes como IPcop, IPfire, m0n0wall, pfsense, ...

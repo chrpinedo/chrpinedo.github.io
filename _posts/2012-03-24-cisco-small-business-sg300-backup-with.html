@@ -1,0 +1,19 @@
+---
+layout: post
+title: Cisco Small Business SG300 backup with RANCID
+date: '2012-03-24T13:34:00.000+01:00'
+author: Christian Pinedo
+tags:
+- freesoftware
+- backup
+- METATECH
+- rancid
+- sg300
+- networking
+- cisco
+modified_time: '2012-11-19T09:49:02.995+01:00'
+blogger_id: tag:blogger.com,1999:blog-578684277544682134.post-789726984040604091
+blogger_orig_url: http://chrpinedo.blogspot.com/2012/03/cisco-small-business-sg300-backup-with.html
+---
+
+I like using <a href="http://www.shrubbery.net/rancid/">RANCID</a> to manage a backup of all the network devices of a network: switches, routers, firewalls,... However, RANCID lacks of "official" support for <a href="http://www.cisco.com/en/US/products/ps10898/index.html">Cisco SG300 series switches</a>. These switches form part of Cisco's Small Business serie and although they are not based on Cisco IOS, they are provided with a CLI with some similar commands to Cisco IOS's ones.<br /><br />By Googling, <a href="http://www.mork.no/%7Ebjorn/srw2008/">I found how to backup with RANCID a Cisco SRW2008P switch</a>. I have modified those files to support not only a SRW switch but also a SG300 switch.<br /><br />So, how to backup a SG300 series switch with RANCID?<br /><br /><ol><li><a href="https://github.com/chrpinedo/rancid-cisco-sb">Download csblogin and csbrancid files</a> and put them in the RANCID's PATH (in my case, <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">/opt/rancid/bin</span>). Don't forget to give them execution permissions.</li><li>Edit rancid-fe file located in the RANCID's PATH (in my case, <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">/opt/rancid/bin/rancid-fe</span>) and insert a new item in the <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">%vendortable</span> dictionary:<br /><br /><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">'cisco-sb'&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; =&gt; 'csbrancid',</span><br /><br /></li><li>Insert the device to backup in the router.db file: <br /><br /><pre style="font-family: &quot;Courier New&quot;,Courier,monospace;">test.example.com:cisco-sb:up:</pre><br /></li><li>Modify your .cloginrc file:<br /><br /><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">add user test.example.com&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; {user}</span><br style="font-family: &quot;Courier New&quot;,Courier,monospace;" /><span style="font-family: &quot;Courier New&quot;,Courier,monospace;"> add password test.example.com &nbsp;&nbsp;&nbsp; {password}</span><br style="font-family: &quot;Courier New&quot;,Courier,monospace;" /><span style="font-family: &quot;Courier New&quot;,Courier,monospace;"> add autoenable test.example.com &nbsp;&nbsp; 1</span><br style="font-family: &quot;Courier New&quot;,Courier,monospace;" /><span style="font-family: &quot;Courier New&quot;,Courier,monospace;"> add method test.example.com &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ssh</span><br style="font-family: &quot;Courier New&quot;,Courier,monospace;" /><span style="font-family: &quot;Courier New&quot;,Courier,monospace;"> add userprompt test.example.com&nbsp; {"User Name:"}</span><br /><br /></li><li>Enjoy it!<br /></li></ol>

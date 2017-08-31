@@ -1,0 +1,15 @@
+---
+layout: post
+title: Jugando a "La Primitiva" con cumpleaños
+date: '2017-01-02T19:59:00.002+01:00'
+author: Christian Pinedo
+tags:
+- METATECH
+- primitiva
+- loteria
+modified_time: '2017-01-02T20:55:30.923+01:00'
+blogger_id: tag:blogger.com,1999:blog-578684277544682134.post-5817357486455223318
+blogger_orig_url: http://chrpinedo.blogspot.com/2017/01/jugando-la-primitiva-con-cumpleanos.html
+---
+
+Pasado el sorteo de Navidad siempre pienso lo mismo: que el precio del décimo es muy caro para lo que realmente puedes ganar y que para eso mejor jugar a La Primitiva o al Euromillón, donde no juegas tanto dinero y si te toca igual te jubilas (esa es la idea de jugar a la lotería ¿no?). Al final me he decidido por jugar a La Primitiva por nostalgia, ya que me recuerda cuando de pequeño iba con mi aita al bar Paquito a echar la lotería todas las semanas y luego veíamos por la tele todas las semanas en casa el sorteo (sin que tocase nada todo sea dicho...).<br /><br />Jugar a La Primitiva es muy sencillo, sólo hay que escoger 6 números del 1 al 49. Una práctica muy habitual suele ser la de poner fechas de cumpleaños de familiares, por ejemplo, en mi caso como nací un 17 de julio, mi número en la primitiva sería el 17. Ya solo me faltan otros 5 números más de las fechas de cumpleaños de mis aitas, hermanos...<br /><br />Sin embargo, este método provoca que solo tengas números del 1 al 31 en tu apuesta. Olvídate de marcar números del 32 al 49. La solución: la <a href="https://es.wikipedia.org/wiki/Aritm%C3%A9tica_modular">aritmética modular</a>.<br /><br />Como podemos utilizar un número del 1 al 49 vamos a utilizar aritmética modular 49 (<span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">mod 49</span>). Y en lugar del día del mes vamos a utilizar el día del año con lo que podemos tener números mayores de 49 hasta el 365 (nos olvidamos de los años bisiestos que son 366 días). Por ejemplo, mi cumpleaños el 17 de julio, le corresponde el día del año 198. Este número en aritmética modular 49 es el 2. Para los que no estéis familiarizados con la aritmética modular, no se trata más que dividir el número deseado (198) entre el módulo (49 en el caso de aritmética modular 49) y quedarnos con el resto de la división (que en nuestro caso puede ir de 0 a 48). Como el resto va de 0 a 48, al resultado hay que sumarle 1 para tener un valor de 1 a 49 que es lo que tenemos que marcar en la primitiva. Así, que mi fecha de cumpleaños, el 17 de julio, le corresponde un 3.<br /><br />En resumen, la formula para jugar sería la siguiente:<br /><br /><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">numero_primitiva = (día_año_cumpleaños (mod 49))&nbsp;+ 1</span><br /><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;"><br /></span>Una vez que sabes que números jugar, ya solo queda hacerlo, <a href="http://www.loteriasyapuestas.es/es">vía web</a> por supuesto. ¡Suerte a todos!
