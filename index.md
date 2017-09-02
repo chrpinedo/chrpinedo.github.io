@@ -4,11 +4,11 @@ title: About
 sidebar_link: true
 ---
 
-<img style="float: left; padding-right: 20px;" src="assets/about/christian.jpg">
+<img style="float: left; width: 220px; padding-right: 20px;" src="assets/about/christian.jpg">
 
 Network Engineer, Sysadmin, Linux user, free software enthusiast, occasional programmer, former researcher...
 I enjoy trekking and cycling, both mountain biking and road cycling.
-I recently discovered philosophy.
+I recently discovered philosophy.</p>
 
 <p style="clear: both">If you want to be up of my news, you can follow me on Twitter and on my Blog. </p>
 

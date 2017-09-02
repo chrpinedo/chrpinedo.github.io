@@ -17,22 +17,25 @@ author:
   name:           'Christian Pinedo'
   url:            https://twitter.com/chrpinedo
 
-paginate:         5
-# paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
 
 plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
 
-# Custom vars
-#version:            3.4.1
-sidebar_home_link:  true
-#github:
-#  repo:             https://github.com/fongandrew/hydeout
+paginate:           5
+paginate_path:      "/blog/page:num/"
+
+sidebar_blog_link:  "/blog/"
 
 disqus:
   shortname:        chrpinedo
 
 google_analytics:   UA-105717046-1
+
+# Custom vars
+#version:            3.4.1
+sidebar_home_link:  false
+#github:
+#  repo:             https://github.com/fongandrew/hydeout
+
