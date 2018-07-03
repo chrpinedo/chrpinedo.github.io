@@ -15,4 +15,4 @@ En [ING](https://www.ing.es) han lanzado una concurso para celebrar los 19 años
 
 Guay. Ya me he apuntado al concurso. Pero al leer las bases del concurso me di cuenta de que ¡el IPC acumulado durante los últimos 19 años ha sido del 50%! Eso quiere decir que si durante 19 años has tenido bajo el colchón de tu casa tus ahorros, hoy te puedes comprar la mitad de cosas que hace 19 años con ese mismo dinero. Y quien dice colchón, dice cuenta bancaria o depósito sin apenas remuneración, que es básicamente lo mismo a día de hoy.
 
-Así que quema el colchón y fúndete la pasta o pon a producir tus ahorros. Pero sacata la pasta del colchón.
+Así que quema el colchón y fúndete la pasta o pon a producir tus ahorros. Pero saca la pasta del colchón.
