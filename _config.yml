@@ -6,7 +6,7 @@ highlighter:      rouge
 title:            Christian Pinedo
 tagline:          'Personal Page'
 description:      'Blog and information about me to track me on the Internet'
-url:              http://christianpinedo.me
+url:              http://chrpinedo.me
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep

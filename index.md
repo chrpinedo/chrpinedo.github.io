@@ -14,7 +14,7 @@ I recently discovered philosophy.</p>
 
 <p>
 <a href="https://twitter.com/chrpinedo"><img src="assets/about/twitter.png" alt="Twitter" style="display: inline;"></a>
-<a href="http://christianpinedo.me"><img src="assets/about/blog.png" style="display: inline;" alt="Blog"></a>
+<a href="http://chrpinedo.me"><img src="assets/about/blog.png" style="display: inline;" alt="Blog"></a>
 </p>
 
 To know about my knowledge, expertise and work, the most updated information is published on LinkedIn.
