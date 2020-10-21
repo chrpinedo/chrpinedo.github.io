@@ -28,10 +28,9 @@ Furthermore, you can see some coding at my profile of GitHub and my former resea
 </p>
 
 The best method to contact me is via email.
-If you are concerned about privacy you may cipher the email with my PGP public key or track my online identities via Keybase.
+If you are concerned about privacy you may cipher the email with my PGP public key.
 
 <p>
 <a href="mailto:christian(at)chrpinedo(dot)me"><img src="assets/about/email.png" alt="Email" style="display: inline;"></a>
 <a href="https://pgp.mit.edu/pks/lookup?op=vindex&search=0x9306DFD0CDE4B542"><img src="assets/about/pgp.png" style="display: inline;" alt="PGP public key"></a>
-<a href="https://keybase.io/chrpinedo"><img src="assets/about/keybase.jpg" style="display: inline;" alt="Keybase"></a>
 </p>
